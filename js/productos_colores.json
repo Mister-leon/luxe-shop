@@ -1,0 +1,29 @@
+{
+    "producto-001": {
+      "titulo": "Producto 1",
+      "colores": {
+        "color-001": {
+          "nombre": "Rojo",
+          "imagen": "path/to/imagen-rojo.jpg"
+        },
+        "color-002": {
+          "nombre": "Azul",
+          "imagen": "path/to/imagen-azul.jpg"
+        }
+      }
+    },
+    "producto-002": {
+      "titulo": "Producto 2",
+      "colores": {
+        "color-001": {
+          "nombre": "Verde",
+          "imagen": "path/to/imagen-verde.jpg"
+        },
+        "color-002": {
+          "nombre": "Amarillo",
+          "imagen": "path/to/imagen-amarillo.jpg"
+        }
+      }
+    }
+  }
+  

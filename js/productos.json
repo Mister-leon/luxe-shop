@@ -1,0 +1,83 @@
+[
+    {
+        "id": "jolleria-01",
+        "titulo": "Collar Oliva",
+        "imagen": "./img/joyeria/collar-oliva.jpg",
+        "categoria": {
+            "nombre": "Joyeria",
+            "id": "joyeria"
+        },
+        "precio": 300,
+        "descuento": 240, 
+        "descripcion": "El color verde de nuestras piedras simboliza tranquilidad y calma, y se asocia con la naturaleza, prosperidad, salud y generosidad.",
+        "detalles":"Detalles : Largo aprox. 45.7 cm",
+        "colores": [" "]
+    },
+    {
+        "id": "jolleria-02",
+        "titulo": "Pulsera Oliva",
+        "imagen": "./img/joyeria/pulsera-oliva.jpg",
+        "categoria": {
+            "nombre": "Joyeria",
+            "id": "joyeria"
+        },
+        "precio": 200,
+        "descuento": 160, 
+        "descripcion": "El color verde de nuestras piedras simboliza tranquilidad y calma, y se asocia con la naturaleza, prosperidad, salud y generosidad.",
+        "detalles":"Detalles : Largo aprox. 21 cm.",
+        "colores": [" "]
+    },
+    {
+        "id": "jolleria-03",
+        "titulo": "Aretes Oliva",
+        "imagen": "./img/joyeria/aretes-oliva.jpg",
+        "categoria": {
+            "nombre": "Joyeria",
+            "id": "joyeria"
+        },
+        "precio": 115,
+        "descuento": 92, 
+        "descripcion": "El color verde de nuestras piedras simboliza tranquilidad y calma, y se asocia con la naturaleza, prosperidad, salud y generosidad.",
+        "detalles":"Detalles : Largo aprox. 4.1 cm. Con poste.",
+        "colores": [" "]
+    },
+    {
+      "id": "maquillaje-02",
+      "titulo": "Base Líquida Hidratante",
+      "imagen": "./img/maquillaje/01.jpg",
+      "categoria": {
+        "nombre": "Maquillaje",
+        "id": "maquillaje"
+      },
+      "precio": 58.50,
+      "descuento": 52.50, 
+      "colores": [
+        "6N",
+        "5C",
+        "5N",
+        "4C",
+        "4N",
+        "3N",
+        "3C",
+        "2C",
+        "2N",
+        "1N"
+      ],
+      "descripcion": "Base líquida hidratante que proporciona una cobertura perfecta y un acabado natural.",
+      "detalles":"Detalles : Cont. 30 g"
+    },    
+    {
+        "id": "perfume-01",
+        "titulo": "Pansión Parfum",
+        "imagen": "./img/perfumes/01.jpg",
+        "categoria": {
+            "nombre": "Perfumes",
+            "id": "perfumes"
+        },
+        "precio": 130,
+        "descuento": 115, 
+        "descripcion": "Despierta la intensidad de la pasión con notas de peonia blanca, el carácter y sofisticación de la violeta, y un fondo cálido y sensual de tonka.",
+        "detalles":"Detalles : Cont. 50 ml",
+        "colores": [" "]
+    }
+]
