@@ -58,11 +58,11 @@ function cargarProductosCarrito() {
                 </div>
                 <div class="carrito-producto-precio">
                     <small>Precio</small>
-                    <p>$${producto.descuento}</p>
+                    <p>S/${producto.descuento}</p>
                 </div>
                 <div class="carrito-producto-subtotal">
                     <small>Subtotal</small>
-                    <p>$${producto.descuento * producto.cantidad}</p>
+                    <p>S/${producto.descuento * producto.cantidad}</p>
                 </div>
                 <button class="carrito-producto-eliminar" data-id="${producto.id}" data-color="${producto.colorSeleccionado || ''}">
                     <i class="bi bi-trash-fill"></i>
