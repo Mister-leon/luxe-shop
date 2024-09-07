@@ -70,11 +70,11 @@ document.addEventListener("DOMContentLoaded", () => {
         // Comprobar si el producto tiene un descuento
         if (producto.descuento && producto.descuento > 0) {
             const precioConDescuento = producto.descuento;
-            modalPrice.textContent = `Precio: $${precioConDescuento.toFixed(2)}`;
+            modalPrice.textContent = `Precio: S/${precioConDescuento.toFixed(2)}`;
             modalPriceOriginal.style.display = "block";
-            modalPriceOriginal.textContent = `Precio original: $${producto.precio.toFixed(2)}`;
+            modalPriceOriginal.textContent = `Precio original: S/${producto.precio.toFixed(2)}`;
         } else {
-            modalPrice.textContent = `Precio: $${producto.precio.toFixed(2)}`;
+            modalPrice.textContent = `Precio: S/${producto.precio.toFixed(2)}`;
             modalPriceOriginal.style.display = "none";
         }
 
