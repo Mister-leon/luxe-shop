@@ -26,8 +26,8 @@ function cargarProductos(productosElegidos) {
 
         // Si el producto tiene un descuento, muestra el precio original tachado
         const precioHTML = producto.descuento ?
-            `<p class="producto-precio"><span class="precio-original">$${producto.precio}</span> $${producto.descuento}</p>` :
-            `<p class="producto-precio">$${producto.precio}</p>`;
+            `<p class="producto-precio"><span class="precio-original">S/${producto.precio}</span> S/${producto.descuento}</p>` :
+            `<p class="producto-precio">S/${producto.precio}</p>`;
 
         div.innerHTML = `
             <img class="producto-imagen" src="${producto.imagen}" alt="${producto.titulo}">
